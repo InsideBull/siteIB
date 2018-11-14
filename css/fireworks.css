@@ -1,15 +1,9 @@
-#canvas-container {
-	
-}
-		
-
-
 #skyline {
-	background: url(https://jackrugile.com/lab/fireworks-v2/images/skyline.png) repeat-x 50% 0;
-	bottom: 0;
-	height: 135px;
-	left: 0;
-	position: absolute;
-	width: 100%;
-	z-index: 1;	
+    background: url(https://jackrugile.com/lab/fireworks-v2/images/skyline.png) repeat-x 50% 0;
+    bottom: 0;
+    height: 135px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
 }

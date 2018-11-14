@@ -54,8 +54,8 @@ Particle.prototype = {
 // Example
 // ----------------------------------------
 
-var MAX_PARTICLES = 280;
-var COLOURS = ['#69D2E7', '#A7DBD8', '#E0E4CC', '#F38630', '#FA6900', '#FF4E50'];
+var MAX_PARTICLES = 50;
+var COLOURS = ['#D3D3D3', '#DCDCDC'];
 
 var particles = [];
 var pool = [];
@@ -71,8 +71,8 @@ demo.setup = function() {
     var i, x, y;
 
     for (i = 0; i < 20; i++) {
-        x = (demo.width * 0.5) + random(-100, 100);
-        y = (demo.height * 0.5) + random(-100, 100);
+        x = (demo.width * 0.5) + random(-25, 25);
+        y = (demo.height * 0.5) + random(-25, 25);
         demo.spawn(x, y);
     }
 };
